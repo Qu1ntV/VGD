@@ -1,7 +1,7 @@
 function setup() {
   canvas = createCanvas(450,450);
   background('white');
-  //canvas.parent('processing');
+  canvas.parent('processing');
   noLoop();
   colorMode(RGB,255,255,255,1);
 }
